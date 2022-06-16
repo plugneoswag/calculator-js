@@ -1,0 +1,50 @@
+.calc {
+    margin: auto;
+    width: 258px; 
+    height: 390px; 
+    top: -214px;
+    left: 185px;
+    border: 2px solid grey;
+    border-radius: 12px;
+    background: linear-gradient(#F1F1ED ,#D6DDE2); 
+
+}
+
+
+.btn {
+    width: 50px; 
+    height: 50px;
+    background: #CDCDCD;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    cursor: pointer; 
+    user-select: none;
+}
+
+.buttons{
+    display: grid;
+    grid-template-areas: 
+    "AC plus-min proc delen";
+    margin: 14px;
+    grid-gap: 10px;
+}
+
+.result{
+    color: white;
+    border-radius: inherit;
+    padding: 15px;
+    margin: 0;
+    background-color: #252525;
+    text-align: right ;
+    font-size: 30px;
+}
+.calc-scren{
+    border-radius: 12px;
+    user-select: none;
+    
+}
+
+
+
